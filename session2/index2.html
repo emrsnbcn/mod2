@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Interactive Tip Calculator</title>
+		<style>
+			.container {
+				width: 300px;
+				margin: auto;
+				font-family: sans-serif;
+				padding: 20px;
+				border: 1px solid #ccc;
+			}
+			input,
+			button {
+				width: 100%;
+				margin: 5px 0;
+				padding: 8px;
+			}
+		</style>
+	</head>
+	<body>
+		<select>
+			<option>5</option>
+			<option>10</option>
+			<option>15</option>
+		</select>
+		<!--
+        google:  how do i get the option value in a select dropdown using javascript
+        ai:  how do i get the option value in a select dropdown using javascript, dont tell me the answer instead guide me.
+         
+        -->
+
+		<div class="container">
+			<h2>Tip Calculator</h2>
+			<label>Bill Amount (RM):</label>
+			<input type="number" id="billInput" />
+
+			<label>Tip Percentage (%):</label>
+			<input type="number" id="tipInput" />
+
+			<button id="calculateBtn" disabled>Calculate</button>
+
+			<p id="result"></p>
+		</div>
+
+		<script src="script4.js"></script>
+	</body>
+</html>
